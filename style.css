@@ -1,0 +1,362 @@
+*{
+	padding:0;
+	margin: 0;
+}
+
+body{
+	font-family: courier;
+	color: white;
+	overflow-x: hidden;
+}
+
+header{
+	background: url('gambar/fti.jpg') no-repeat;
+	background-color: #51595e;
+	background-blend-mode: multiply;
+	background-size: cover;
+	height: 100vh;
+	width: 100vw;
+	position: relative;
+	text-align: center;
+}
+
+header .wrapper-center {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+header .wrapper-center h1 {
+	font-size: 60px;
+	color: white;
+	text-shadow: 0 5px 1px yellowgreen;
+	margin-bottom: 30px;
+}
+
+header .wrapper-center img{
+	border-radius: 75% ;
+	border: 4px solid yellowgreen;
+	margin-bottom: 30px;
+	width: 35%;
+	height: 35%;
+	box-shadow: 0 15px 5px 1px #202220;
+	transition: transform .5s ease-out;
+}
+
+header .wrapper-center img:hover{
+	transform: scale(1.1);
+}
+
+header .wrapper-center p{
+	font-size: 20px;
+	text-shadow: 0 0px 30px yellowgreen;
+}
+
+header .wrapper-center ul{
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	justify-content: space-between;
+}
+
+header .wrapper-center ul li{
+	display: inline-block;
+	margin-top: 30px;
+}
+
+header .wrapper-center ul li a{
+	text-decoration: 10px;
+	margin-right: 10px;
+	font-family: verdana;
+	color: antiquewhite;
+	font-size: 15px;
+	text-transform: uppercase;
+	text-shadow: 0 0px 30px yellowgreen;
+}
+
+header .wrapper-center ul li a:hover {
+	text-decoration:overline;
+}
+
+.tentang {
+	background-color:#51595e;
+	color: white;
+	text-align: center;
+	padding: 15px 10px;
+	height: 100vh ;
+	width: 100vw;
+	display: flex ;
+	align-items: center;
+}
+
+.tentang .wrapper {
+	position: relative;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.tentang .wrapper h2{
+	font-size: 50px;
+	color: white;
+	text-shadow: 0 5px 1px yellowgreen;
+}
+
+.tentang .wrapper img{
+	width: 200px;
+	height:150px;
+	transition: transform .5s ease-out;
+}
+
+.tentang .wrapper img:hover{
+	transform: scale(1.1);
+}
+
+.tentang .wrapper h3{
+	margin-top: 20px;
+	margin-bottom: 40px;
+	font-size: 30px;
+	color: white;
+	text-shadow: 0 5px 1px yellowgreen;
+}
+.tentang .wrapper p{
+	font-size: 15px;
+}
+
+.tentang .wrapper .wrapper-skill .background{
+	position: relative;
+	width: 100%;
+	height: 40px;
+	background: white;
+}
+
+.tentang .wrapper .wrapper-skill .indicator{
+	position: relative;
+	height: 40px;
+	background: yellowgreen;
+}
+
+.indicator.html{
+	width: 30%;
+}
+
+.indicator.design{
+	width: 50%;
+}
+
+.indicator.cpp{
+	width: 50%;
+}
+
+.tentang .wrapper .wrapper-skill h5{
+	font-size: 13px;
+}
+
+.pendidikan {
+	background-color:#51595e;
+	color: white;
+	text-align: center;
+	padding: 15px 10px;
+	height: 100vh ;
+	width: 100vw;
+	display: flex ;
+	align-items: center;
+}
+
+.pendidikan .wrapper {
+	position: relative;
+	top: 20%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.pendidikan .wrapper h2{
+	font-size: 50px;
+	color: white;
+	text-shadow: 0 5px 1px yellowgreen;
+	margin-bottom: 50px;
+}
+
+.pendidikan .wrapper ul{
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	justify-content: space-between;
+}
+
+.pendidikan h3{
+	font-size: 40px;
+}
+ .pendidikan p{
+ 	font-size: 20px;
+ }
+
+ .pendidikan li {
+ 	font-size: 18px;
+ }
+.organisasi{
+	background-color:#51595e;
+	color: white;
+	text-align: center;
+	padding: 15px 10px;
+	height: 100vh ;
+	display: flex ;
+	justify-content: center;
+	align-items: center;
+}
+
+.organisasi .wrapper h2{
+	font-size: 50px;
+	color: white;
+	text-shadow: 0 5px 1px yellowgreen;
+	display: inline-block;
+	padding-bottom: 7px;
+	margin-bottom: 50px;
+}
+
+.organisasi .wrapper .wrapper-ok .organisasi-items img{
+	display: grid;
+	grid-gap: 30px;
+	width: 90%;
+	margin: 0 auto;
+	grid-template-columns: repeat(3, 1fr);
+}
+
+.organisasi .wrapper .wrapper-ok .organisasi-items{
+	display: grid;
+	grid-gap: 30px;
+	width: 100%;
+	margin: 0 auto;
+	grid-template-columns: repeat(3, 1fr);
+}
+
+.organisasi .wrapper .wrapper-ok .organisasi-items{
+}
+
+.organisasi .wrapper .wrapper-ok .organisasi-items img{
+	height: 300px;
+	width: 300px;
+	transition: transform .5s ease-out;
+}
+
+.organisasi .wrapper .wrapper-ok .organisasi-items img:hover{
+	transform: scale(1.1);
+}
+
+.organisasi h4{
+	font-size: 20px;
+}
+
+.harapan {
+	background-color:#51595e;
+	color: white;
+	text-align: center;
+	padding: 15px 10px;
+	height: 100vh ;
+	width: 100vw;
+	display: flex ;
+	align-items: center;
+}
+
+.harapan .wrapper {
+	position: relative;
+	top: 30%;
+	left: 49%;
+	transform: translate(-50%, -50%);
+}
+
+.harapan .wrapper h2{
+	font-size: 50px;
+	color: white;
+	text-shadow: 0 5px 1px yellowgreen;
+	margin-bottom: 50px;
+}
+
+.harapan .wrapper p{
+	font-size: 25px;
+	text-shadow: 0 0px 30px yellowgreen;
+}
+
+.harapan .wrapper ul{
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	justify-content: space-between;
+}
+
+.harapan .wrapper ul li{
+	display: inline-block;
+	margin-top: 30px;
+}
+
+.harapan .wrapper img{
+	width: 50px;
+	height: 50px;
+	transition: transform .5s ease-out;
+}
+
+.harapan .wrapper img:hover{
+	transform: scale(1.1);
+}
+
+.organisasi ul{
+	list-style: none;
+}
+
+.feedback{
+	background-color:#51595e;
+	color: white;
+	text-align: center;
+	padding: 15px 10px;
+	height: 100vh ;
+	width: 100vw;
+	display: flex ;
+	justify-content: center;
+	align-items: center;	
+}
+
+.feedback .wrapper h2{
+	font-size: 50px;
+	color: white;
+	text-shadow: 0 5px 1px yellowgreen;
+	margin-bottom: 50px;
+}
+
+.feedback .wrapper-feedback input, .feedback .wrapper-feedback textarea{
+	font-family: sans-serif;
+	width: 100%;
+	height: 30px;
+	margin-bottom: 18px;
+}
+
+.feedback .wrapper-feedback textarea{
+	height: 120px;
+}
+
+.feedback .wrapper-feedback input[type="submit"]{
+	color: white;
+	text-decoration: none;
+	text-transform: uppercase;
+	border-radius: 15px;
+	padding: 10px 30px;
+	border: 5px solid white;
+	border-top: none;
+	border-left: none;
+	border-right: none;
+	background: yellowgreen;
+	display: inline-block;
+	width: auto;
+	cursor: pointer;
+}
+
+.feedback .wrapper-feedback input[type="submit"]:hover{
+	background: yellowgreen;
+	box-shadow: 0 5px 15px -5px rgba(0, 0, 0, 0.7);
+}
+
+footer{
+	background: white;
+	color: black;
+	text-align: center;
+	padding: 15px 0;
+}
